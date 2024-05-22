@@ -1,16 +1,89 @@
-{% extends "base.html" %}
-{% block content %}
-<a class="collapse-item" href="{% url 'contact' %}">Contact Page</a>
-<div class="container">
-  <br>
-  <section>
-        <h2>Contact Us</h2>
-        <p>Have questions or need assistance? Feel free to reach out to us:</p>
-        <p>Email: info@emporion.com</p>
-        <p>Phone: +1 (123) 456-7890</p>
-        <p>Address: 123 Main Street, City, Country</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Name</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff8c00;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Dark grey styling */
+        .dark-grey {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .dark-grey h2 {
+            color: #fff;
+        }
+        .dark-grey p {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    
     </section>
-  
-</div>
-
-{% endblock %}
+    <!-- Contact section -->
+    <div class="container">
+        <br>
+        <section class="dark-grey">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Feel free to reach out to us:</p>
+            <p>Email: George Kotsidis g.kotsidis@emptrd.com</p>
+            <p>Phone: +1 (516) 557-1264</p>
+            
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 EMPORION LLC. All rights reserved.
+    </footer>
+</body>
+</html>
